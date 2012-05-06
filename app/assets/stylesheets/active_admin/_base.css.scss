@@ -1,5 +1,6 @@
 /* Active Admin CSS */
 // Reset Away!
+@import "active_admin/mixins";
 @include global-reset;
 
 // Partials
@@ -14,7 +15,6 @@
 @import "active_admin/components/batch_actions";
 @import "active_admin/components/blank_slates";
 @import "active_admin/components/breadcrumbs";
-@import "active_admin/components/dropdown_menu";
 @import "active_admin/components/buttons";
 @import "active_admin/components/grid";
 @import "active_admin/components/links";
